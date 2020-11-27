@@ -1,0 +1,426 @@
+.backgroundourexpert {
+    width:1349px;
+    height:100%;
+position: relative;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+   
+    &__logobox {
+        border-bottom-left-radius: 230px;
+        border-bottom-right-radius: 290px;
+        border-top-right-radius:0.459228515625px;
+        width: 300px;
+        height: 110px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 3px 27px #0000001C;
+        opacity: 1;
+        position: absolute;
+        &__threedotnav{
+             
+            margin-left: 60px;
+        margin-top: 40px; 
+        width: 10px;
+    
+     
+        }
+            &__logoimage{
+                                         
+        top: 50px;
+        margin-left: 35px;
+    margin-top: -34px; 
+    left: 171px;
+    width: 30px;
+    height: 30px;
+    background: transparent linear-gradient(80deg, #179DAF 0%, #3BB29D 45%, #3FB299 49%, #64B882 82%, #72BB79 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+            }
+            &__Swetha{
+                width: 103px;
+                    height: 21px;
+                    opacity: 1;
+                    font: normal normal 18px/20px SF UI Display;
+                    color:#707070 0% 0% no-repeat padding-box;
+                    font-family: sans-serif;
+                    letter-spacing: 0px;
+                    margin-top: 1px;
+                    margin-left: 40px;
+                    opacity: 100%;
+                    display: inline-block;
+                    white-space: nowrap;
+    
+            }
+            &__dentistry{
+                width: 77px;
+                    height: 8px;
+                    opacity: 1;
+                    font: normal normal 8px/8px SF UI Display;
+                color:#707070 0% 0% no-repeat padding-box;
+                font-family: sans-serif;
+                letter-spacing: 0px;
+                margin-top: -1px;
+                margin-left: 45px;
+                opacity: 100%;
+                white-space: nowrap;
+                display: flex;
+             }
+             &__blueright{
+                width: 620px;
+height: 500px;
+                position: absolute;
+                top:0px;
+                left:726px;
+            background: transparent linear-gradient(180deg, #e5fdfc 0%, #175C64 100%) 0% 0% no-repeat padding-box;
+            box-shadow: 0px 3px 6px #00000029;
+            opacity: 1
+            
+            
+    }
+   
+            .imageblueright{
+                display: flex;
+                position: absolute;
+           
+                width: 850px;
+                height: 526px;
+                opacity: 1;
+             margin-top: 150px;
+            margin-left: -70%;
+            box-shadow: 1px 6px 20px #00000029;
+            -webkit-box-shadow: 15px 15px 32px rgba(68,68,68,0.6);
+          
+            }
+            
+    }
+    &__bottomblue{
+        padding-top: 0%;
+        margin-top: 30%;
+        width:220vh;
+        height: 100vh;
+        background: transparent linear-gradient(180deg, #FFFFFF 0%, #46C1BB 41%, #175C64 100%) 0% 0% no-repeat padding-box;
+        display: flex;
+        // padding-left: -110%;
+
+        &__schedule{
+width:100vh;
+height: 17px;
+padding-top: 20%;
+padding-left: 15%;
+padding-bottom: 5%;
+display: inline-block;
+display: flex;
+font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 98px/132px SF UI Display;
+text-align: center;
+font: normal normal bold 70px/72px SF UI Display;
+
+letter-spacing: 20.38px;
+color: #FFFFFF;
+text-transform: uppercase;
+white-space: nowrap;
+font-family: sans-serif;
+//  display: flex;
+opacity: 1;
+        }  
+        &__inputfield1{
+            flex-direction: column;
+            // display: inline-block;
+            float:left;
+          padding-top: 6%;
+          padding-bottom: 0%;
+          margin-bottom: -4%;
+margin-left: 37%;
+width: 1080px;
+height: 140px;
+opacity: 1;   
+        }  
+        &__inputfield2{
+            flex-direction: column;
+            display: inline-block;
+            padding-bottom: 4%;
+margin-left: 37%;
+width: 1080px;
+height: 00px;
+opacity: 1;   
+        }      
+          
+&__buttonvalue{
+flex-direction: column;
+display: inline-block;
+
+padding-left:36%;
+width: 108px;
+height: 1046px;
+opacity: 1;
+
+}
+&__buttonvalue1{
+flex-direction: column;
+display: inline-block;
+
+padding-left:18%;
+width: 108px;
+height: 1046px;
+opacity: 1;
+
+}
+
+}
+.rightheading{
+    width: 210px;
+    height: 127px;
+    display:flex;
+    margin-top: 0%;
+    padding: 20%;
+    margin-left: 22%;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 56px/60px SF UI Display;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    text-align: left;
+    font: normal normal bold 46px/50px SF UI Display;
+    letter-spacing: 0px;
+    color: #313133;
+    text-shadow: 0px 3px 6px #40404029;
+    opacity: 1;
+    white-space: nowrap;
+    font-family: sans-serif;
+    
+    }
+    .rightheadingdescription{
+width: 400px;
+height: 263px;
+margin-left: 292px;
+margin-top: -22%;
+display: flex;
+flex-direction: column;
+letter-spacing: var(--unnamed-character-spacing-0);
+text-align: left;
+letter-spacing: 0px;
+color: #313133;
+opacity: 1;
+font-family: sans-serif;
+    }
+&.bottomblack{
+    width: 220vh;
+    height: 50vh;
+
+    display: flex;
+background: #333333 0% 0% no-repeat padding-box;
+box-shadow: 0px -47px 99px #00000029;
+opacity: 1;
+flex-direction: column;
+display: flex;
+&__box{
+width: 90vh;
+height: 40vh;
+margin-left: 8%;
+margin-top: 2%;
+opacity: 1;
+display: flex;
+background: #333333  0% 0% no-repeat padding-box;
+
+
+
+}
+
+
+
+}
+
+.blueleft{
+    display: flex;
+    // top: 12px;
+    left: -2.7177734375px;
+    width: 508px;
+    height: 580px;
+    margin-top: 250%;
+    background: transparent linear-gradient(180deg, #71D1CA 0%, #175C64 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+.playbutton{
+  display: flex;
+
+  width: 91px;
+  height: 91px;
+  opacity: 1;
+margin-top: 235px;
+margin-left: -59%;
+
+}
+
+.image1{
+    display: flex;
+flex-flow: row;
+    // float: right;
+    width: 600px;
+    height: 400px;
+    opacity: 1;
+ margin-top: 90px;
+margin-left: 14%;
+    // box-shadow: 1px 6px 20px #00000029;
+    // -webkit-box-shadow: 5px 5px 5px rgba(68,68,68,0.6);
+    box-shadow: 0px 3px 6px #00000029;
+    -webkit-box-shadow: 0px 6px 6px rgba(68,68,68,0.6);
+
+}
+.expertteeth{
+    display: flex;
+flex-flow: row;
+    // float: right;
+    width: 500px;
+    height: 300px;
+    opacity: 1;
+ margin-top: 135px;
+margin-left: -70%;
+    box-shadow: 1px 6px 20px #00000029;
+    // -webkit-box-shadow: 5px 5px 5px rgba(68,68,68,0.6);
+
+}
+.heading{
+    width: 100%;
+    height: 19px;
+    padding-top: 711px;
+    padding-left: 100px;
+    
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 66px/69px SF UI Display;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    text-align: left;
+    font: normal normal bold 66px/69px SF UI Display;
+    letter-spacing: 0px;
+    color: #313133;
+    opacity: 1; 
+    white-space: nowrap;
+    font-family: sans-serif;
+    
+                              
+}
+
+.des{
+    top: 1306px;
+left: 140px;
+width: 1058px;
+height: 60px;
+
+padding-top: 5%;
+font: var(--unnamed-font-style-normal) normal 300 20px/25px SF UI Display;
+letter-spacing: var(--unnamed-character-spacing-0);
+text-align: left;
+font: normal normal 300 20px/30px SF UI Display;
+letter-spacing: 0px;
+color: #313133;
+opacity: 1;
+font-family: sans-serif;
+}
+
+
+                                                  .three-dots {
+                                                   
+                                                    width: 400%;
+                                                    height: 5%;
+                                                   display:inline-flex;
+                                                   padding-top: 30%;
+                                                   padding-left: 20%;
+                                                  padding-bottom: 20%;
+
+                                                  
+                                                  
+                                              
+                                                  span.first {
+                                                    width: 150px;
+                                                    
+                                                    height: 3px;
+                                                    border-radius: 50%;
+                                                    background: #E4E4E4 0% 0% no-repeat padding-box;
+                                                    display: inline-block;
+                                                    margin: 3px;
+                                                    border-radius: 20%;
+                                                    margin-left: 0%;
+                                                   
+                                                  }
+                                                  
+                                                  span.second {
+                                                    width: 150px;
+                                                    height: 3px;
+                                                    border-radius: 50%;
+                                                    background: #3AA9A1 0% 0% no-repeat padding-box;
+                                                    display: inline-block;
+                                                    margin: 3px;
+                                                    border-radius: 20%;
+                                                    margin-left: 0%;
+                                                  
+                                                  }
+                                                 
+                                                }
+
+
+                                                .previous1 {
+                                                    width: 40px;
+                                                    height: 35px;
+                                                   padding-left: 0%;
+                                                    background-color: #68C5BF;
+                                                 
+                                                     font: normal normal 34px/11px SF UI Display;
+                                                 
+                                            //    margin-top: 20%;
+                                                    color: white;
+                                                    text-shadow: 0px 3px 6px #40404029;
+                                                    font-family: sans-serif;
+                                                    white-space: nowrap;
+                                                    border: 0px;
+                                                    opacity: 1;
+                                                    display: inline-flex;
+                                                    text-align: center;
+                                                    padding-top:0.8%;
+                                                    padding-left:0.8%;
+                                                    padding-bottom: 0.51%; 
+                                                    outline: 0px;
+                                                    
+                                                  }
+                                                  .round1 {
+                                                    border-radius: 50%;
+                                                    // margin-left: 20%;
+                                                    margin-top: -1.3%;
+                                             margin-left: 10px;
+                                                  }
+                                                
+                                                  .previous2 {
+                                                    width: 40px;
+                                                    height: 35px;
+                                                   
+                                                    background-color: #68C5BF;
+                                                 
+                                                     font: normal normal 34px/11px SF UI Display;
+                    
+                                                    color: white;
+                                                    text-shadow: 0px 3px 6px #40404029;
+                                                    font-family: sans-serif;
+                                                    white-space: nowrap;
+                                                    opacity: 1;
+                                                    display: inline-flex;
+                                                    align-items: center;
+                                                    border: 0px;
+                                                 padding-left: 1%;
+                                                 padding-bottom: 0.5%; 
+                                                 outline: 0px;
+                                                  }
+                                                  .round2 {
+                                                    border-radius: 50%;
+                                                    margin-left:1%;
+                                                    margin-top: -1.2%;
+                                                  }
+                                                
