@@ -6,6 +6,7 @@ import LoadingPage from './pages/loadingPage';
 import Ourexperts from './pages/ourexperts';
 import Treatement from './pages/treatements'
 import Worldclassexperience from './pages/worldclassexperience'
+import Services from "./component/servicesPage/services"
 // import Submitform from './component/sumbitform/sumbitform'
 // import Bottomnav from './component/bottomnav/bottomnav'
 import Abouts from './pages/about'
@@ -44,6 +45,10 @@ function App() {
              <Route exact 
             path='/worldclassexperience' 
             component={ Worldclassexperience} 
+            />
+            <Route exact 
+            path='/services' 
+            component={Services} 
             />
           </Switch>
         </Fragment>
