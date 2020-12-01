@@ -3,8 +3,7 @@ import '../about/about.scss'
 import Expert from '../../assets/experts.png'
 import SubmitForm from '../sumbitform/sumbitform.js';
 import BottomNav from '../bottomnav/bottomnav.js';
-import Nav from '../../assets/icons8-menu-24.png'
-
+import Nav from '../../assets/icons8-menu-24.png';
 function OurexpertsPage() {
     return (
         <div>
