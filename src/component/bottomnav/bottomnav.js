@@ -68,7 +68,6 @@ function Bottomnav() {
               </div>
             </div>
         </div>
-
   );
 }
 
