@@ -4,7 +4,7 @@ import Expert from '../../assets/experts.png'
 import SubmitForm from '../sumbitform/sumbitform.js';
 import BottomNav from '../bottomnav/bottomnav.js';
 import Nav from '../../assets/icons8-menu-24.png'
-// aaass
+
 function OurexpertsPage() {
     return (
         <div>
@@ -134,7 +134,7 @@ function OurexpertsPage() {
               
         </div>
 
-// aaa
+
     );
 }
 
