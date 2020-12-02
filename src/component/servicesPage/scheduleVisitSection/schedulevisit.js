@@ -4,11 +4,13 @@ function ScheduleVisit() {
   return (
     <section>
       <br />
-      <div className="schedule-visit-container">
+      <div className="schedule-visit-container d-flex align-items-center">
         <div className="container-fluid">
           <div className="row">
             <div className="col-lg-2"></div>
             <div className="col-lg-8">
+            <div className="d-flex align-items-center">
+            <div>
             <div id="schedule-visit-text" className="d-flex justify-content-center">
                 Schedule a Visit
             </div>
@@ -59,6 +61,8 @@ function ScheduleVisit() {
                     </button>
                 </div>
               </form>
+            </div>
+            </div>
             </div>
             </div>
             <div className="col-lg-2"></div>
