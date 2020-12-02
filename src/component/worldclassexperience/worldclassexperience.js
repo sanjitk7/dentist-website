@@ -3,6 +3,7 @@ import '../worldclassexperience/worldclassexperience.css'
 import 'swiper/swiper.scss';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import secondImg from '../../assets/2.png';
+import CommonNavBar from '../CommonNavBar/CommonNavBar';
 
 function Worldclassexperiences() {
 
@@ -18,20 +19,23 @@ function Worldclassexperiences() {
       if (top === 330 && left === 500) {
         elem.textContent = '<  >';
         elem.style.backgroundColor = '#277E82';
-        setTimeout(()=>{
+        setTimeout(() => {
           elem.textContent = 'Click & Drag';
           elem.style.backgroundColor = '#277E82';
           clearInterval(id);
-          secondid = setInterval(secondframe,5);
+          secondid = setInterval(secondframe, 5);
         },700);
+
       }
       else {
         top += 1.5;
         left += 1.5;
-        if(top > 50 && left > 50){
+
+        if (top > 50 && left > 50) {
           elem.textContent = 'Click & drag';
           elem.style.backgroundColor = '#277E82';
-          elem .style.color = 'white';
+          elem.style.color = 'white';
+
         }
         if (top === 330 || left === 500) {
           top = 330;
@@ -42,12 +46,14 @@ function Worldclassexperiences() {
       }
     }
 
+
     function secondframe(){
       if(left === 82){
         clearInterval(secondid);
         elem.textContent = 'Click & Drag';
       }
       else{
+
         left -= 1;
         elem.style.top = top + 'px';
         elem.style.left = left + 'px';
@@ -60,7 +66,9 @@ function Worldclassexperiences() {
     spaceBetween: 20,
   }
   return (
-    <div className='worldclassexperience'>
+    <div className='worldclassexperience-container'>
+      <CommonNavBar/>
+
       <div className="animation">
         <h3 className='animation-heading'>WORLD CLASS EXPERIENCE</h3>
         <div className='swiper-container' style={{ padding: '60px 0px 0px 70px' }}>
