@@ -9,6 +9,10 @@
   .container {
     /* border: black 1px solid;    */
   }
+
+  .padding-zero{
+    padding:0 !important;
+  }
   
   #right-blue-box {
     position: relative;
