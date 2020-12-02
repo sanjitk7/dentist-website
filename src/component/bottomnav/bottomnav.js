@@ -70,5 +70,4 @@ function Bottomnav() {
         </div>
   );
 }
-
 export default Bottomnav;

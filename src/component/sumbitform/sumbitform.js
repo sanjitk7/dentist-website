@@ -60,7 +60,6 @@ function Submitform() {
     </div>
   );
 }
-
 export default Submitform;
 
 
