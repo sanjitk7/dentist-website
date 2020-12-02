@@ -90,7 +90,7 @@ height: 500px;
           
             }
             
-    }
+    }   
     &__bottomblue{
         padding-top: 0%;
         margin-top: 30%;
@@ -168,9 +168,9 @@ opacity: 1;
     width: 210px;
     height: 127px;
     display:flex;
-    margin-top: 0%;
-    padding: 20%;
-    margin-left: 22%;
+    margin-top: 4px;
+    // padding: 20%;
+    margin-left: 145px;
     font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 56px/60px SF UI Display;
     letter-spacing: var(--unnamed-character-spacing-0);
     text-align: left;
@@ -184,10 +184,9 @@ opacity: 1;
     
     }
     .rightheadingdescription{
-width: 400px;
+width: 450px;
 height: 263px;
-margin-left: 292px;
-margin-top: -22%;
+padding-left: 1%;
 display: flex;
 flex-direction: column;
 letter-spacing: var(--unnamed-character-spacing-0);
@@ -224,13 +223,15 @@ background: #333333  0% 0% no-repeat padding-box;
 
 }
 
-.blueleft{
+.blueleft11{
     display: flex;
     // top: 12px;
     left: -2.7177734375px;
     width: 508px;
-    height: 580px;
-    margin-top: 250%;
+    height: 570px;
+    
+    // margin-top: 5%;
+    // margin-left: -20%;
     background: transparent linear-gradient(180deg, #71D1CA 0%, #175C64 100%) 0% 0% no-repeat padding-box;
     box-shadow: 0px 3px 6px #00000029;
     opacity: 1
@@ -291,12 +292,12 @@ margin-left: -70%;
     // -webkit-box-shadow: 5px 5px 5px rgba(68,68,68,0.6);
 
 }
-.heading{
+.headingourexper{
     width: 100%;
     height: 19px;
-    padding-top: 711px;
+    padding-top: 1px;
     padding-left: 100px;
-    
+    margin-top: 240%;
     font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 66px/69px SF UI Display;
     letter-spacing: var(--unnamed-character-spacing-0);
     text-align: left;
@@ -311,24 +312,68 @@ margin-left: -70%;
 }
 
 .des{
-    top: 1306px;
-left: 140px;
-width: 1058px;
-height: 60px;
 
-padding-top: 5%;
-font: var(--unnamed-font-style-normal) normal 300 20px/25px SF UI Display;
+width: 1058px;
+height: 90px;
+padding-bottom: 80px;
+font: var(--unnamed-font-style-normal) normal 300 25px/30px SF UI Display;
 letter-spacing: var(--unnamed-character-spacing-0);
-text-align: left;
-font: normal normal 300 20px/30px SF UI Display;
+text-align:left;
+font: normal normal 300 19px/16px SF UI Display;
 letter-spacing: 0px;
+font-family: sans-serif;
 color: #313133;
 opacity: 1;
-font-family: sans-serif;
+letter-spacing: 0px;
+line-height: 20px;
 }
+.des1{
 
+width: 1058px;
+height: 120px;
+padding-bottom:80px;
+font: var(--unnamed-font-style-normal) normal 300 25px/30px SF UI Display;
+letter-spacing: var(--unnamed-character-spacing-0);
+text-align: left;
+font: normal normal 300 19px/16px SF UI Display;
+letter-spacing: 0px;
+font-family: sans-serif;
+color: #313133;
+opacity: 1;
+letter-spacing: 0px;
+line-height: 20px;
+}
+.des2{
+width: 108px;
+height: 80px;
+// padding-bottom: 2%;
+font: var(--unnamed-font-style-normal) normal 300 25px/30px SF UI Display;
+letter-spacing: var(--unnamed-character-spacing-0);
+text-align: left;
+font: normal normal 300 19px/16px SF UI Display;
+letter-spacing: 0px;
+font-family: sans-serif;
+color: #313133;
+opacity: 1;
+letter-spacing: 0px;
+line-height: 20px;
+}
+.des3{
+width: 108px;
+height:120px;
 
-                                                  .three-dots {
+font: var(--unnamed-font-style-normal) normal 300 25px/30px SF UI Display;
+letter-spacing: var(--unnamed-character-spacing-0);
+text-align:left;
+font: normal normal 300 19px/16px SF UI Display;
+letter-spacing: 0px;
+font-family: sans-serif;
+color: #313133;
+opacity: 1;
+letter-spacing: 0px;
+line-height: 20px;
+}
+                                                  .three-dots1 {
                                                    
                                                     width: 400%;
                                                     height: 5%;
@@ -340,7 +385,7 @@ font-family: sans-serif;
                                                   
                                                   
                                               
-                                                  span.first {
+                                                  span.first1 {
                                                     width: 150px;
                                                     
                                                     height: 3px;
@@ -353,7 +398,7 @@ font-family: sans-serif;
                                                    
                                                   }
                                                   
-                                                  span.second {
+                                                  span.second1 {
                                                     width: 150px;
                                                     height: 3px;
                                                     border-radius: 50%;
@@ -368,7 +413,7 @@ font-family: sans-serif;
                                                 }
 
 
-                                                .previous1 {
+                                                .previous3 {
                                                     width: 40px;
                                                     height: 35px;
                                                    padding-left: 0%;
@@ -391,14 +436,14 @@ font-family: sans-serif;
                                                     outline: 0px;
                                                     
                                                   }
-                                                  .round1 {
+                                                  .round3 {
                                                     border-radius: 50%;
                                                     // margin-left: 20%;
                                                     margin-top: -1.3%;
                                              margin-left: 10px;
                                                   }
                                                 
-                                                  .previous2 {
+                                                  .previous4 {
                                                     width: 40px;
                                                     height: 35px;
                                                    
@@ -418,9 +463,13 @@ font-family: sans-serif;
                                                  padding-bottom: 0.5%; 
                                                  outline: 0px;
                                                   }
-                                                  .round2 {
+                                                  .round4 {
                                                     border-radius: 50%;
                                                     margin-left:1%;
                                                     margin-top: -1.2%;
                                                   }
-                                                
+                                                  .imageslider{
+display: flex;
+margin-top: 190%;
+padding-bottom: 10%;
+}

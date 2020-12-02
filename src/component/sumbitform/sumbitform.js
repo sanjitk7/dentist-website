@@ -4,13 +4,13 @@ function Submitform() {
   return (
     <div>
       <div className='bottomblues'>
-        <div className='bottomblues__bottomblue'>
+        <div className='bottomblues__bottomblue1'>
           <div>
-            <div className='bottomblues__bottomblue__schedule'>Schedule a visit</div>
+            <div className='bottomblues__bottomblue1__schedule'>Schedule a visit</div>
             <div>
               <form>
                 <div >
-                  <div className='bottomblues__bottomblue__inputfield1'>
+                  <div className='bottomblues__bottomblue1__inputfield1'>
                     <input
 
                       className='input'
@@ -25,7 +25,7 @@ function Submitform() {
                     />
                   </div>
                 </div>
-                <div className='bottomblues__bottomblue__inputfield2'>
+                <div className='bottomblues__bottomblue1__inputfield2'>
                   <div> <input
                     className='input'
                     placeholder='Date'
@@ -40,13 +40,13 @@ function Submitform() {
                 <div>
                   <button
                     type='submit'
-                    className='submitbutton '
+                    className='submitbutton1'
 
                   >Submit
                   </button>
                   <button
                     type='submit'
-                    className='callusbutton'
+                    className='callusbutton1'
                   >
                     CallUs
                     </button>
@@ -60,7 +60,6 @@ function Submitform() {
     </div>
   );
 }
-
 export default Submitform;
 
 
