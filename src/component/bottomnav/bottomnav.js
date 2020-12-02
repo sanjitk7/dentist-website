@@ -9,8 +9,8 @@ function Bottomnav() {
   return (
     <div>
    
-   <div className=' bottomblacks'>
-              <div className='bottomblacks__box'>
+   <div className=' bottomblacks1'>
+              <div className='bottomblacks1__box'>
                 <div>
                   <div className=' ourlocation' >Our locations</div>
                   <div className=' ourlocationdes'>Trust Pharmacy, 1st Floor, Beside GOLD HUB MALL, Main Rd<br /> opp. K B N Hospital, Gulbarga, Karnataka 585102</div>
@@ -68,8 +68,6 @@ function Bottomnav() {
               </div>
             </div>
         </div>
-
   );
 }
-
 export default Bottomnav;

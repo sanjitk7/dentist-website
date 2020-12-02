@@ -66,12 +66,12 @@ function OurexpertsPage() {
                         <br/>
                         <div className='desabout2'> Shwetha Dentistry is the first to include the most modern Microscope-assisted Root Canal Treatment facility which helps in bringing down the loss of tooth material to zero during the root canal treatment and also accurately treat the affected root.</div>
                      
-                        <div className='desabout3'> The Hospital offers nine specialised treatments for dental ailments including Orthodontics, Endodontic, Oral Surgery, Periodontics, Dental Implants, Implantology, Prosthodontics, Laser Gum Treatment, Oral Medicine, and Oral Radiology.</div>
-                        <div className='desabout2'>The patients suffering from irregular teeth alignment are offered permanent treatment solutions through Invisalign treatment using the latest kind of invisible braces. Shwetha Dentistry is an exclusive Invisalign provider for the entire North Karnataka. The hospital also provides laser dental surgeries which are painless and bloodless surgeries are also provided for different gum diseases and the healing process was faster in the patients who undergo laser-based dental surgeries. The hospital also offers instant teeth whitening in one single sitting using the imported Zoom Teeth whitening technology. Advanced 3D radiology facility is also available in the hospital.</div>
+                        <div className='desabout2'> The Hospital offers nine specialised treatments for dental ailments including Orthodontics, Endodontic, Oral Surgery, Periodontics, Dental Implants, Implantology, Prosthodontics, Laser Gum Treatment, Oral Medicine, and Oral Radiology.</div>
+                        <div className='desabout2'>The patients suffering from irregular teeth alignment are offered permanent treatment solutions through Invisalign treatment using the latest kind of invisible braces. Shwetha Dentistry is an exclusive Invisalign provider for the entire North Karnataka.</div>
                        <br/>
                         <div className='desabout2'> The hospital also provides laser dental surgeries which are painless and bloodless surgeries are also provided for different gum diseases and the healing process was faster in the patients who undergo laser-based dental surgeries. The hospital also offers instant teeth whitening in one single sitting using the imported Zoom Teeth whitening technology. Advanced 3D radiology facility is also available in the hospital.</div>
 
-                        <div className='desabout2'>  Besides all these specialisations offered in the hospital, one of the rare specialisations offered is Lingual Orthodontics. Shwetha Dentistry is the exclusive hospital to offer the lingual orthodontics specialisation in the entire North Karnataka. Dr Patil has a rich experience of nearly a decade in offering specialised lingual orthodontics (invisible) treatment. </div>
+                        <div className='desabout3'>  Besides all these specialisations offered in the hospital, one of the rare specialisations offered is Lingual Orthodontics. Shwetha Dentistry is the exclusive hospital to offer the lingual orthodontics specialisation in the entire North Karnataka. Dr Patil has a rich experience of nearly a decade in offering specialised lingual orthodontics (invisible) treatment. </div>
 
                         <div className='Laurelsuponlaurels'>Laurels upon laurels.</div>
                         <div className='desabout1'>Shwetha Dentistry is one of the very few centres in the state to get ISO 2015-18 from the prestigious TUV Nord Sud Certification from Germany. Now the hospital has applied for the accreditation from the NABH, which has been made mandatory for all the hospitals. The hospital has received many awards and recognition from different certification organisations and prominent among them was the FAMDENT excellence in Dentistry award which declared the Shwetha Dentistry has the clinic of the year Multiple Chairs 2013. Dr Patil says that the main motto of the Shwetha Dentistry is to provide world-class quality and precision service to the patients.</div>
@@ -121,7 +121,7 @@ function OurexpertsPage() {
                     
 
                     
-                    <div className='backgroundabout'>
+                    <div >
                 <SubmitForm />
            </div>
            <div className='backgroundabout'>
@@ -133,7 +133,6 @@ function OurexpertsPage() {
             </div>
               
         </div>
-
 
     );
 }

@@ -1,0 +1,20 @@
+.logo{
+    .logo-name{
+      margin-top: -35px;
+    }
+  
+    .filter {
+      filter: drop-shadow(5px 5px 5px #277E82);
+    }
+  }
+  
+  .navbar-content{
+    padding:10px 20px 10px 20px;
+    margin: 5px;
+    color: white;
+    background-color: #277E82;
+  
+    .navbar-list > li{
+      height: 10vh;
+    }
+  }
