@@ -42,10 +42,10 @@ function Services() {
   return (
     <div className="App">
       <Meta/>
-      <Endodontics/>
+      {/* <Endodontics/> */}
       {/* <PostEndodontics/> */}
-      <Slider/>
-      <Emi/>
+      {/* <Slider/> */}
+      {/* <Emi/> */}
       {/* <OtherServices/> */}
       {/* <ReactSlider heading="Example Slider" slides={slideData}/> */}
       <ScheduleVisit/>
