@@ -13,22 +13,27 @@
   .swiper-container{
     display: flex;
     justify-content: center;
+    position: relative;
+
+    .swiper-show{
+      width: 70px;
+      height: 70px;
+      z-index: 2;
+      position: absolute;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      font-weight: bolder;
+      background-color: white;
+    }
 
     .swiper-slide {
       text-align: center;
       width: 70%;
-    }
-  
-    .swiperslide-click-drag{
-      width: 7%;
-      display: flex;
-      align-items: center;
-  
-      .swiperslide-text{
-        padding: 20px 10px 20px 10px;
-        border-radius: 50%;
-        background-color: #277E82;
-        color: white;
+      :hover{
+        cursor: pointer;
       }
     }
   
@@ -78,7 +83,7 @@
     }
     
     
-    @media only screen and (max-width: 480px) {
+    @media only screen and (max-width: 800px) {
       .animation-heading{
         padding: 5%;
         text-align: center;
