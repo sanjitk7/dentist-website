@@ -7,6 +7,7 @@ import Emi from "./emiSection/emi"
 import OtherServices from "./otherServicesSection/otherServices"
 import ReactSlider from "./otherServicesSection/reactSlider"
 import ScheduleVisit from "./scheduleVisitSection/schedulevisit"
+import Footer from "./footer/footer"
 
 
 // const slideData = [
@@ -48,6 +49,7 @@ function Services() {
       {/* <OtherServices/> */}
       {/* <ReactSlider heading="Example Slider" slides={slideData}/> */}
       <ScheduleVisit/>
+      <Footer/>
       </div>
   );
 }
