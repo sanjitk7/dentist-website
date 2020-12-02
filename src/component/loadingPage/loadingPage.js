@@ -10,12 +10,11 @@ class LoadingPage extends React.Component {
   render() {
     return (
       <div>
+
         <div className='background'>
           <div className='background__logobox'>
             <svg height="210" width="400">
-              <path fill="#fff" 
-              d="M 100 300 L 100 250 L 350 250 C 250 250 300 450 100 265 "
-              transform="translate(-100 -250)"/>
+              <path fill="#fff" d="M 100 300 C 250 500 250 300 350 300 " transform="translate(-100 -290)"/>
             </svg>
             <div className='background__logobox__logoimage'>
               <div className='background__logobox__Swetha'>Swetha</div>
@@ -81,15 +80,6 @@ class LoadingPage extends React.Component {
 
 
     );
-  }
-  componentDidMount() {
-    const sample = document.querySelector('#sample');
-    debugger;
-    new Drift(sample, {
-      inlinePane: false,
-      // containInline: true,
-      zoomFactor: 0.1
-    });
   }
 
 }

@@ -24,15 +24,18 @@ function Worldclassexperiences() {
           elem.style.backgroundColor = '#277E82';
           clearInterval(id);
           secondid = setInterval(secondframe, 5);
-        }, 700);
+        },700);
+
       }
       else {
         top += 1.5;
         left += 1.5;
+
         if (top > 50 && left > 50) {
           elem.textContent = 'Click & drag';
           elem.style.backgroundColor = '#277E82';
           elem.style.color = 'white';
+
         }
         if (top === 330 || left === 500) {
           top = 330;
@@ -43,12 +46,14 @@ function Worldclassexperiences() {
       }
     }
 
-    function secondframe() {
-      if (left === 82) {
+
+    function secondframe(){
+      if(left === 82){
         clearInterval(secondid);
         elem.textContent = 'Click & Drag';
       }
-      else {
+      else{
+
         left -= 1;
         elem.style.top = top + 'px';
         elem.style.left = left + 'px';
@@ -63,6 +68,7 @@ function Worldclassexperiences() {
   return (
     <div className='worldclassexperience-container'>
       <CommonNavBar/>
+
       <div className="animation">
         <h3 className='animation-heading'>WORLD CLASS EXPERIENCE</h3>
         <div className='swiper-container' style={{ padding: '60px 0px 0px 70px' }}>
