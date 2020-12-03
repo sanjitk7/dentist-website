@@ -3,11 +3,12 @@ import "./slider.css"
 import "../meta/styles.css"
 import sliderpic1 from "../../../assets/teeth1.png";
 import sliderpic2 from "../../../assets/cosmetic_bonding.png";
-// import play from "../../../assets/play.png";
+import play from "../../../assets/play-buttons.png";
+import nav from "../../../assets/divprogress4.png";
 
 function Slider(){
     return(
-        <section id="slider-section">
+        <div id="slider-section">
             <div id="slider-row" className="row">
                 <div id="container-slider-wrap" className="col-lg-7">
                 <div id="container-slider">
@@ -33,11 +34,14 @@ function Slider(){
             </div>
             {/* <br/><br/><br/><br/><br/><br/> */}
             <div className="row">
-            <div id="nav-slider" className="col-lg-12 nav-slider">
-
+            <div id="nav-slider" className="col-lg-10 nav-slider d-flex justify-content-center">
+                <img src={nav} alt="progress_bar" id="progress-bar-slider-pic"/>
+            </div>
+            <div id="nav-slider-button" className="col-lg-2 nav-slider d-flex justify-content-left">
+                <img src={play} alt="progress_bar" id="progress-bar-slider-pic"/>
             </div>
             </div>
-        </section>
+        </div>
     );
 }
 

@@ -2,7 +2,7 @@ import React from "react";
 import "./schedulevisit.css";
 function ScheduleVisit() {
   return (
-    <section>
+    <div>
       <br />
       <div className="schedule-visit-container d-flex align-items-center">
         <div className="container-fluid">
@@ -69,7 +69,7 @@ function ScheduleVisit() {
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 }
 

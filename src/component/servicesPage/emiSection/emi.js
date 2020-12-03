@@ -4,7 +4,7 @@ import handpic from "../../../assets/purchasing.png"
 
 function Emi() {
   return (
-    <section>
+    <div>
       <div id="emi-container">
         <div className="row">
           <div className="col-lg-2"></div>
@@ -14,7 +14,7 @@ function Emi() {
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 }
 

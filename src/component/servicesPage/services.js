@@ -44,7 +44,7 @@ function Services() {
       <Meta/>
       <Endodontics/>
       {/* <PostEndodontics/> */}
-      {/* <Slider/> */}
+      <Slider/>
       <Emi/>
       {/* <OtherServices/> */}
       {/* <ReactSlider heading="Example Slider" slides={slideData}/> */}
