@@ -31,7 +31,7 @@ function Story() {
                 <div className="story-text">
                 Besides the self-confidence and sheer hard work of Dr Patil, another force which stands tall like a rock behind him in his phenomenal success in the profession is his wife Dr Rashmi Patil who herself is a specialist endodontist. Apart from Dr Patil and his wife Dr Reshmi Patil, seven other specialists work as consultants in the hospital.
                 </div>
-
+<br/><br/><br/>
 
             </div>
             <div className="col-lg-2"></div>
