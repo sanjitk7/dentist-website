@@ -3,7 +3,7 @@ import "./otherServices.scss"
 
 function otherServices() {
     return(
-        <section>
+        <div>
         <br/>
             {/* <div className="container-fluid">
                 <div className="row">
@@ -21,7 +21,7 @@ col-4
             
 
 
-        </section>
+        </div>
     )
 }
 

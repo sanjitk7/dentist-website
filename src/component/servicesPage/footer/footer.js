@@ -8,7 +8,7 @@ import y from "../../../assets/youtube.png"
 
 function Footer() {
   return (
-    <section>
+    <div>
       <div className="footer-container">
         <div className="row d-flex full-height ">
           <div className="col-lg-4 h-100 d-flex justify-content-center align-items-center">
@@ -46,7 +46,7 @@ function Footer() {
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 }
 
